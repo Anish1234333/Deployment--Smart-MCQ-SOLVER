@@ -1,0 +1,7 @@
+transformers==4.53.0
+torch==2.1.0
+streamlit==1.38.0
+sentencepiece
+protobuf
+accelerate
+huggingface_hub
