@@ -12,11 +12,11 @@ st.set_page_config(
 def load_model():
     token     = st.secrets["HF_TOKEN"]
     tokenizer = AutoTokenizer.from_pretrained(
-        "YOUR_HF_USERNAME/deberta-mcq-solver",
+        "AnishSPIT/deberta-mcq-solver",
         token = token
     )
     model = AutoModelForMultipleChoice.from_pretrained(
-        "YOUR_HF_USERNAME/deberta-mcq-solver",
+        "AnishSPIT/deberta-mcq-solver",
         token = token
     )
     model.eval()
