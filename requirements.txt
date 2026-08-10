@@ -1,7 +1,8 @@
 transformers==4.53.0
-torch
-streamlit==1.38.0
+torch==2.6.0
+streamlit
 sentencepiece
 protobuf
 accelerate
 huggingface_hub
+pillow==10.4.0
